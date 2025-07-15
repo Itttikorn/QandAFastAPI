@@ -20,7 +20,7 @@ Does not use Llama 3.2 and simply returns the top-k answers.
     docker compose up
     ```
 3. Wait a few minutes for the API server to become fully functional.
-4. Send a `GET` HTTP request to `http://localhost:8000/ask` with a JSON body.
+4. Send a `POST` HTTP request to `http://localhost:8000/ask` with a JSON body.
     ```json
         {
             "query": "Your question",
